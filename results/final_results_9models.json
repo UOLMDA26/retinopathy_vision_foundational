@@ -1,0 +1,129 @@
+{
+  "DINOv2-Full": {
+    "internal_auroc": 0.7557,
+    "internal_ci": [
+      0.7315,
+      0.778
+    ],
+    "external_auroc": 0.9202,
+    "external_ci": [
+      0.8861,
+      0.9519
+    ],
+    "cal_internal": 0.7529,
+    "cal_external": 0.916
+  },
+  "DINOv2-Linear": {
+    "internal_auroc": 0.703,
+    "internal_ci": [
+      0.6788,
+      0.7273
+    ],
+    "external_auroc": 0.8429,
+    "external_ci": [
+      0.8013,
+      0.8842
+    ],
+    "cal_internal": 0.7003,
+    "cal_external": 0.8395
+  },
+  "DINOv2-LoRA": {
+    "internal_auroc": 0.758,
+    "internal_ci": [
+      0.7328,
+      0.7822
+    ],
+    "external_auroc": 0.9067,
+    "external_ci": [
+      0.8693,
+      0.9398
+    ],
+    "cal_internal": 0.7526,
+    "cal_external": 0.9077
+  },
+  "CLIP-Full": {
+    "internal_auroc": 0.7012,
+    "internal_ci": [
+      0.6762,
+      0.7258
+    ],
+    "external_auroc": 0.7557,
+    "external_ci": [
+      0.697,
+      0.8092
+    ],
+    "cal_internal": 0.6954,
+    "cal_external": 0.7482
+  },
+  "CLIP-Linear": {
+    "internal_auroc": 0.6865,
+    "internal_ci": [
+      0.6623,
+      0.7092
+    ],
+    "external_auroc": 0.8051,
+    "external_ci": [
+      0.7576,
+      0.8478
+    ],
+    "cal_internal": 0.6839,
+    "cal_external": 0.7956
+  },
+  "CLIP-LoRA": {
+    "internal_auroc": 0.7014,
+    "internal_ci": [
+      0.6761,
+      0.7258
+    ],
+    "external_auroc": 0.8112,
+    "external_ci": [
+      0.764,
+      0.8557
+    ],
+    "cal_internal": 0.6961,
+    "cal_external": 0.8059
+  },
+  "ViT-Full": {
+    "internal_auroc": 0.7395,
+    "internal_ci": [
+      0.7133,
+      0.763
+    ],
+    "external_auroc": 0.9203,
+    "external_ci": [
+      0.8899,
+      0.9466
+    ],
+    "cal_internal": 0.7377,
+    "cal_external": 0.9175
+  },
+  "ViT-Linear": {
+    "internal_auroc": 0.6917,
+    "internal_ci": [
+      0.6655,
+      0.7177
+    ],
+    "external_auroc": 0.7914,
+    "external_ci": [
+      0.7413,
+      0.8351
+    ],
+    "cal_internal": 0.6875,
+    "cal_external": 0.7823
+  },
+  "ViT-LoRA": {
+    "internal_auroc": 0.7155,
+    "internal_ci": [
+      0.6904,
+      0.7394
+    ],
+    "external_auroc": 0.7317,
+    "external_ci": [
+      0.6807,
+      0.7777
+    ],
+    "cal_internal": 0.7173,
+    "cal_external": 0.727
+  },
+  "best_model": "DINOv2-LoRA"
+}
