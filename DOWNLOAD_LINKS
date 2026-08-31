@@ -1,0 +1,65 @@
+====================================================
+Explainable Retinal Disease Classification
+====================================================
+
+GitHub Repository:
+https://github.com/Tech-Abhi24/Explainable-DR-Foundation-Models
+
+----------------------------------------------------
+
+Model Checkpoints
+
+The trained model checkpoints can be downloaded from:
+
+https://drive.google.com/drive/folders/16k0PnQQzhyuYyOKibrzkeP5bf6iYAG1K?usp=sharing
+
+----------------------------------------------------
+
+Datasets
+
+The datasets (ODIR, APTOS, and IDRiD) are available in:
+
+https://drive.google.com/drive/folders/10UI7yKcZ5fu6ringktVubuZnCCAKg6Gi?usp=sharing
+
+----------------------------------------------------
+
+Folder Structure
+
+Place the downloaded files in the following directory:
+
+
+Retinal_project/
+│
+├── dataset/
+│   ├── ODIR.zip
+│   ├── aptos.zip
+│   └── Idrid.zip
+│
+├── checkpoints/
+│   ├── ckpt_clip_full.pth
+│   ├── ckpt_clip_linear.pth
+│   ├── ckpt_clip_lora.pth
+│   ├── ckpt_dinov2_full.pth
+│   ├── ckpt_dinov2_linear.pth
+│   ├── ckpt_dinov2_lora.pth
+│   ├── ckpt_vit_full.pth
+│   ├── ckpt_vit_linear.pth
+│   └── ckpt_vit_lora.pth
+│
+├── figures/
+│
+├── results/
+│
+└── retinal_foundation_models.ipynb
+
+----------------------------------------------------
+
+Running the Project
+
+1. Mount Google Drive in Google Colab.
+2. Place the datasets and checkpoints in the structure shown above.
+3. Open retinal_foundation_models.ipynb.
+4. Run all cells.
+
+If checkpoints are available, the notebook loads them automatically.
+Otherwise, it starts training the models from scratch.
