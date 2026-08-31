@@ -1,0 +1,30 @@
+# Core deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchao>=0.17.0
+
+# Vision foundation models / adaptation
+timm>=1.0.0
+transformers>=4.40.0
+peft>=0.10.0
+
+# Explainability
+grad-cam>=1.5.0
+opencv-python>=4.8.0
+
+# Data science / evaluation
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+
+# Image handling
+Pillow>=10.0.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Note: torch/torchvision are best installed via the official PyTorch index
+# matching your CUDA version, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# before installing the rest of this file.
